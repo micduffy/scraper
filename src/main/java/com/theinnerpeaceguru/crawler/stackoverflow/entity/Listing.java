@@ -1,4 +1,4 @@
-package ai.preferred.crawler.stackoverflow.entity;
+package com.theinnerpeaceguru.crawler.stackoverflow.entity;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

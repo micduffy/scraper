@@ -1,10 +1,11 @@
-package ai.preferred.crawler.stackoverflow.master;
+package com.theinnerpeaceguru.crawler.stackoverflow.master;
 
-import ai.preferred.crawler.stackoverflow.entity.Listing;
 import ai.preferred.venom.response.VResponse;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import com.theinnerpeaceguru.crawler.stackoverflow.entity.Listing;
 
 import java.util.ArrayList;
 import java.util.List;

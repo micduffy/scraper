@@ -3,10 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ai.preferred.crawler.stackoverflow.master;
+package com.theinnerpeaceguru.crawler.stackoverflow.master;
 
-import ai.preferred.crawler.EntityCSVStorage;
-import ai.preferred.crawler.stackoverflow.entity.Listing;
 import ai.preferred.venom.Handler;
 import ai.preferred.venom.Session;
 import ai.preferred.venom.Worker;
@@ -17,6 +15,9 @@ import ai.preferred.venom.response.VResponse;
 import org.jsoup.nodes.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.theinnerpeaceguru.crawler.EntityCSVStorage;
+import com.theinnerpeaceguru.crawler.stackoverflow.entity.Listing;
 
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;

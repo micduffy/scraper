@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ai.preferred.crawler.stackoverflow;
+package com.theinnerpeaceguru.crawler.stackoverflow;
 
 /**
  * @author Ween Jiann Lee

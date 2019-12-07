@@ -1,4 +1,4 @@
-package ai.preferred.crawler.iproperty.master;
+package com.theinnerpeaceguru.crawler.master;
 
 import ai.preferred.venom.request.Request;
 import ai.preferred.venom.response.Response;
@@ -25,7 +25,7 @@ public class ListingValidator implements Validator {
   public Validator.Status isValid(Request request, Response response) {
     final VResponse vResponse = new VResponse(response);
 
-    if (vResponse.getHtml().contains("Property for rent in Singapore")) {
+    if (!vResponse.getHtml().contains("Property for rent in Singapore")) {
       return Status.VALID;
     }
 

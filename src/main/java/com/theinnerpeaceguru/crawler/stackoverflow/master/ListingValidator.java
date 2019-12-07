@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ai.preferred.crawler.stackoverflow.master;
+package com.theinnerpeaceguru.crawler.stackoverflow.master;
 
 import ai.preferred.venom.request.Request;
 import ai.preferred.venom.response.Response;

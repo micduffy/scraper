@@ -1,7 +1,5 @@
-package ai.preferred.crawler.iproperty.master;
+package com.theinnerpeaceguru.crawler.master;
 
-import ai.preferred.crawler.EntityCSVStorage;
-import ai.preferred.crawler.iproperty.entity.Property;
 import ai.preferred.venom.Handler;
 import ai.preferred.venom.Session;
 import ai.preferred.venom.Worker;
@@ -14,6 +12,9 @@ import org.apache.http.client.utils.URIBuilder;
 import org.jsoup.nodes.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.theinnerpeaceguru.crawler.EntityCSVStorage;
+import com.theinnerpeaceguru.crawler.entity.Property;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

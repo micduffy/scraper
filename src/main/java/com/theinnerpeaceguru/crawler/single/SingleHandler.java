@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ai.preferred.crawler.single;
+package com.theinnerpeaceguru.crawler.single;
 
 import ai.preferred.venom.Handler;
 import ai.preferred.venom.Session;
